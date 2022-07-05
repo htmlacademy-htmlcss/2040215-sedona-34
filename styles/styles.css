@@ -29,6 +29,23 @@ body {
   background-color: #ffffff;
 }
 
+.navigation {
+display: flex;
+width: 1200px;
+margin: 0 auto;
+}
+
+.navigation-list {
+  width: 390px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 304px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-family: "PT Sans";
   sans-serif;
@@ -50,8 +67,30 @@ body {
   background-repeat: no-repeat;
 }
 
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
 .advantages-list {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-item {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .advantages-title {
@@ -75,6 +114,8 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+  display: flex;
+  padding: 0 398px;
 }
 
 .subscribe.subscribe-description {
@@ -83,6 +124,8 @@ body {
   line-height: 26px;
   text-align: center;
   color: #ffffff;
+  display: flex;
+  padding: 0 363px;
 }
 
 .action.action-e-mail {
@@ -91,6 +134,8 @@ body {
   line-height: 21px;
   align-items: center;
   color: #000000;
+  display: flex;
+  padding: 0 240px;
 }
 
 .button {
@@ -101,6 +146,8 @@ body {
   color: #ffffff;
   align-items: center;
   text-align: center;
+  display: flex;
+  padding: 0 855px;
 }
 
 .page-footer {
@@ -112,14 +159,27 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social{
+  display: flex;
+  padding: 0 70px;
+  margin-right: auto;
 }
 
 .page-footer .contacts-phone {
   color: #000000;
+  padding: 0 448,5px;
+  display: flex;
 }
 
 .page-footer.html-academy-link {
   color: #000000;
+  display: flex;
+  padding: 0 1015px;
 }
 
 .main-inner {
@@ -132,12 +192,31 @@ body {
   background-color: #ffffff;
 }
 
+.navigation-logo {
+  width: 139px;
+  margin-left: 107px;
+}
+
 .main-inner.inner-header-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   font-style: inherit;
   text-transform: uppercase;
+  padding: 70px;
+  margin-right: auto;
+  width: 495px;
+}
+
+.catalog-filter-title {
+width: 494;
+}
+
+.catalog.options {
+  width: 63;
+  display: flex;
+  padding: 70;
+  margin-left: 70;
 }
 
 .hotels-options.search-hotels {
